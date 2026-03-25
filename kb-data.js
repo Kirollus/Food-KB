@@ -8,6 +8,11 @@ window.KB_LATEST_CHANGES = [
 
 window.KB_DATA = {
       updates: [
+		  {
+			date: "12 March 2026",
+          title: "Slack Reports",
+          description: "Any report will be assigned to you from Slack channels; you should add (Slack Channel) in the ticket's subject."
+		  },
 		{
           date: "21 January 2026",
           title: "Refund Process",
