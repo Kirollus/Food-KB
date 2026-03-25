@@ -3,7 +3,7 @@ window.KB_BUILD_VERSION = "__BUILD_VERSION__";
 window.KB_LAST_UPDATED = "16 Feb 2026";
 
 window.KB_LATEST_CHANGES = [
-  "Smashed Refund"
+  "Product issues refund"
 ];
 
 window.KB_DATA = {
@@ -47,7 +47,7 @@ window.KB_DATA = {
         description: " العميل اشتكى ان المنتج مكسور أو مفتت أو مقسوم أو متفعص أو مهروس أومفتوح",
   		cx: "1. Understand the issue and apologize to the customer with empathy.<br>2. Click on edit to check the order details on Yelo.<br>*Check the previous tickets, In case a ticket was handled over another channel.<br>3. Ask for a photo of the item that has an issue. (It's important to educate the customer that we need the photo for the report, and it will help us in the investigation in addition to picking up the product).<br>4. Offer the designed compensation and apply it through  Switcher by selecting the order, Wallet Refund and Choosing Product issue as a refund reason and Product Damaged.<br>5. If the customer asked for a replacement, kindly inform them that we are currently unable to send replacement orders, However, we can only refund the amount of product/order.<br>6. Report the ticket on freshdesk and add a note in the ticket with full details.",
   tree: "Ticket Tree: Restaurant, Complaints, Product, Appearance, Smashed<br>Group: CX ( As per your group )<br>Status: Resolved/Closed (USE THIS)",
-  treeCx: "⁍ Partially Smashed> 25% - 50% refund of the item amount +  Delivery Fees Compensation<br>⁍ Fully Smashed > 100% refund of the item + Delivery Fees Compensation"
+  treeCx: "⁍ Partially Smashed ➤ 25% - 50% refund of the item amount +  Delivery Fees Compensation<br>⁍ Fully Smashed ➤ 100% refund of the item + Delivery Fees Compensation"
 },
         {
   case: "Freshness",
@@ -56,7 +56,7 @@ window.KB_DATA = {
   description: "- العميل اشتكى ان المنتج قديم.العميل اشتكى ان العيش مفرول.العميل قال ان المنتج بايظ (مازال صالح للأكل) و مذكرش كلمة عفن.",
   cx: "1. Understand the issue and apologize to the customer with empathy.<br>2. Click on 'edit' to check the order details on Yelo.<br>*Check the previous tickets, In case a ticket was handled over another channel.<br>3. Ask for a photo of the item that has an issue. (It's important to educate the customer that we need the photo for the report, and it will help us in the investigation in addition to picking up the product).<br>4. Offer the designed compensation and apply it through  'Switcher' by selecting the order, 'Wallet Refund' and Choosing 'Product issue' as a refund reason and 'Product Quality'.<br>5. If the customer asked for a replacement, kindly inform them that we are currently unable to send replacement orders, However, we can only refund the amount of product/order.<br>6. Report the ticket on freshdesk and add a note in the ticket with full details.",
   tree: "Ticket Tree: Restaurant, Complaints, Product, Appearance, Freshness<br>Group: CX ( As per your group )<br>Status: Resolved/Closed (USE THIS)",
-  treeCx: "100% refund of the item + Delivery Fees"
+  treeCx: "⁍ 50% refund of the item + Delivery Fees"
 },
 		{
   case: "Melted",
@@ -65,7 +65,7 @@ window.KB_DATA = {
   description: "العميل اشتكى ان المنتج جاي سايح او فك من التجمد",
   cx: "1. Understand the issue and apologize to the customer with empathy.<br>2. Click on 'edit' to check the order details on Yelo.<br>*Check the previous tickets, In case a ticket was handled over another channel.<br>3. Ask for a photo of the item that has an issue. (It's important to educate the customer that we need the photo for the report, and it will help us in the investigation in addition to picking up the product).<br>4. Offer the designed compensation and apply it through  'Switcher' by selecting the order, 'Wallet Refund' and Choosing 'Product issue' as a refund reason and 'Product Quality'.<br>5. If the customer asked for a replacement, kindly inform them that we are currently unable to send replacement orders, However, we can only refund the amount of product/order.<br>6. Report the ticket on freshdesk and add a note in the ticket with full details.",
   tree: "Ticket Tree: Restaurant, Complaints, Product, Appearance, Melted<br>Group: CX ( As per your group )<br>Status: Resolved/Closed (USE THIS)",
-  treeCx: "100% refund of the item + Delivery Fees"
+  treeCx: "⁍ 100% refund of the item + Delivery Fees"
 },
 		{
   case: "Size",
@@ -74,7 +74,7 @@ window.KB_DATA = {
   description: "العميل اشتكى ان حجم المنتج غير مطابق للصورة أو المعلومات على الأبليكيشن",
   cx: "1. Understand the issue and apologize to the customer with empathy.<br>2. Click on 'edit' to check the order details on Yelo.<br>*Check the previous tickets, In case a ticket was handled over another channel.<br>3. Ask for a photo of the item that has an issue. (It's important to educate the customer that we need the photo for the report, and it will help us in the investigation in addition to picking up the product).<br>4. Offer the designed compensation and apply it through  'Switcher' by selecting the order, 'Wallet Refund' and Choosing 'Product issue' as a refund reason and 'Product Quality'.<br>5. Important note: If a customer complains about the size of a product (it seems smaller than the previous time), we should inform the customer that while the size may vary (the product's appearance), the weight should remain consistent on the app, as each product has a specific weight.<br>6. If this is the customer's first order and they complain about the size, educate them about the dimensions, then fulfill the tree with a Feedback not complaint.<br>7. If the customer asked for a replacement, kindly inform them that we are currently unable to send replacement orders, However, we can only refund the amount of product/order.",
   tree: "Ticket Tree: Restaurant, Complaints, Product, Appearance, Size<br>Group: CX ( As per your group )<br>Status: Resolved/Closed (USE THIS)",
-  treeCx: "50% Refund of the item + Delivery Fees"
+  treeCx: "⁍ Customer ordered this product before ➤ Offer 50% of the item<br>⁍ This is the first time of order ➤ Offer 25% of the item"
 },
 {
   case: "Burned",
@@ -83,7 +83,7 @@ window.KB_DATA = {
   description: "العميل اشتكى ان المنتج ملسوع، محروق، فيه سواد، هباب",
   cx: "1. Understand the issue and apologize to the customer with empathy.<br>2. Click on 'edit' to check the order details on Yelo.<br>*Check the previous tickets, In case a ticket was handled over another channel.<br>3. Ask for a photo of the item that has an issue. (It's important to educate the customer that we need the photo for the report, and it will help us in the investigation in addition to picking up the product).<br>4. Offer the designed compensation and apply it through  'Switcher' by selecting the order, 'Wallet Refund' and Choosing 'Product issue' as a refund reason and 'Product Quality'.<br>5. If the customer asked for a replacement, kindly inform them that we are currently unable to send replacement orders, However, we can only refund the amount of product/order.<br>6. Report the ticket on freshdesk and add a note in the ticket with full details.",
   tree: "Ticket Tree: Restaurant, Complaints, Product, Appearance, Burned<br>Group: CX ( As per your group )<br>Status: Resolved/Closed (USE THIS)",
-  treeCx: "100% refund of the item + Delivery Fees"
+  treeCx: "⁍ 100% refund of the item + Delivery Fees"
 },
 		{
   case: "Topping",
@@ -92,7 +92,7 @@ window.KB_DATA = {
   description: "العميل اشتكى ان الطبقة العلوية مفصولة من المنتج داخل العبوة او لازقة في العلبة",
   cx: "1. Understand the issue and apologize to the customer with empathy.<br>2. Click on 'edit' to check the order details on Yelo.<br>*Check the previous tickets, In case a ticket was handled over another channel.<br>3. Ask for a photo of the item that has an issue. (It's important to educate the customer that we need the photo for the report, and it will help us in the investigation in addition to picking up the product).<br>4. Offer the designed compensation and apply it through  'Switcher' by selecting the order, 'Wallet Refund' and Choosing 'Product issue' as a refund reason and 'Product Quality'.<br>5. If the customer asked for a replacement, kindly inform them that we are currently unable to send replacement orders, However, we can only refund the amount of product/order.<br>6. Report the ticket on freshdesk and add a note in the ticket with full details.",
   tree: "Ticket Tree: Restaurant, Complaints, Product, Appearance, Topping<br>Group: CX ( As per your group )<br>Status: Resolved/Closed (USE THIS)",
-  treeCx: "100% refund of the item + Delivery Fees"
+  treeCx: "⁍ Topping completely not found ➤ Full refund of the item<br>⁍ Topping little or ruined ➤ 50% refund "
 },
 		{
   case: "Filling",
@@ -101,7 +101,7 @@ window.KB_DATA = {
   description: "العميل اشتكى ان العبوة غير مملوءة بالكامل(فى حالة ان العبوة مغلقة).العميل اشتكى ان حشو المنتجات ناقص او قليل.العميل اشتكى ان مكون من مكونات السلطة او الساندوتش كان قليل. (Breadfast Kitchen & Breadfast Coffee) فقط",
   cx: "1. Understand the issue and apologize to the customer with empathy.<br>2. Click on 'edit' to check the order details on Yelo.<br>*Check the previous tickets, In case a ticket was handled over another channel.<br>3. Ask for a photo of the item that has an issue. (It's important to educate the customer that we need the photo for the report, and it will help us in the investigation in addition to picking up the product).<br>4. Offer the designed compensation and apply it through  'Switcher' by selecting the order, 'Wallet Refund' and Choosing 'Product issue' as a refund reason and 'Product Quality'.<br>5. If the customer asked for a replacement, kindly inform them that we are currently unable to send replacement orders, However, we can only refund the amount of product/order.<br>6. Report the ticket on freshdesk and add a note in the ticket with full details.",
   tree: "Ticket Tree: Restaurant, Complaints, Product, Appearance, Filling<br>Group: CX ( As per your group )<br>Status: Resolved/Closed (USE THIS)",
-  treeCx: "Relative to the restaurant filling standards<br>100% refund of the item if the customer used the item before, and the customer said that the filling complteley not found"
+  treeCx: "⁍ Relative to the restaurant's filling standards."
 },
 		{
   case: "Rotten",
@@ -110,7 +110,7 @@ window.KB_DATA = {
   description: "- العميل اشتكى من وجود عفن في المنتج (على حسب كلام العميل).وجود عفن ظاهري علي الطعام",
   cx: "1. Understand the issue and apologize to the customer with empathy.<br>2. Click on 'edit' to check the order details on Yelo.<br>*Check the previous tickets, In case a ticket was handled over another channel.<br>3. Ask for a photo of the item that has an issue. (It's important to educate the customer that we need the photo for the report, and it will help us in the investigation in addition to picking up the product).<br>4. Offer the designed compensation and apply it through  'Switcher' by selecting the order, 'Wallet Refund' and Choosing 'Product issue' as a refund reason and 'Product Quality'.<br>5. If the customer asked for a replacement, kindly inform them that we are currently unable to send replacement orders, However, we can only refund the amount of product/order.<br>6. Report the ticket on freshdesk and add a note in the ticket with full details.<br>7. If we need to conduct an investigation,a pickup order can be created only for 'Breadfast Kitchen & Breadfast Coffee' products using the admin panel.",
   tree: "Ticket Tree: Restaurant, Complaints, Product, Appearance, Rotten<br>Group: CX ( As per your group )<br>Status: Resolved/Closed (USE THIS)",
-  treeCx: "100% refund of the item + Delivery Fees"
+  treeCx: "⁍ 100% refund of the item + Delivery Fees"
 },
 		{
   case: "Hot / Cold",
@@ -119,7 +119,7 @@ window.KB_DATA = {
   description: "العميل اشتكى ان المنتج ساقع او سخن و ده عكس طبيعه المنتج.",
   cx: "1. Understand the issue and apologize to the customer with empathy.<br>2. Click on 'edit' to check the order details on Yelo.<br>3.Check the previous tickets, In case a ticket was handled over another channel.<br>4. Offer the designed compensation and apply it through  'Switcher' by selecting the order, 'Wallet Refund' and Choosing 'Product issue' as a refund reason and 'Product Quality'.<br>5. If the customer asked for a replacement, kindly inform them that we are currently unable to send replacement orders, However, we can only refund the amount of product/order.<br>6. Report the ticket on freshdesk and add a note in the ticket with full details.",
   tree: "Ticket Tree: Restaurant, Complaints, Product, Hot / Cold<br>Group: CX ( As per your group )<br>Status: Resolved/Closed (USE THIS)",
-  treeCx: "Replacement order for item if the customer accepted OR 100% refund of the item + Delivery Fees"
+  treeCx: "⁍ 50% refund of the item + Delivery Fees"
 },
 		{
   case: "Under/Overcooked",
@@ -128,7 +128,7 @@ window.KB_DATA = {
   description: "العميل اشتكى من الدجاج الموجود في أي ساندوتش أو سلطة انه مش مستوي او مستوي زيادة عن اللزوم وذكر أن الدجاج كان ناشف Dry",
   cx: "1. Understand the issue and apologize to the customer with empathy.<br>2. Click on 'edit' to check the order details on Yelo.<br>*Check the previous tickets, In case a ticket was handled over another channel.<br>3. Ask for a photo of the item that has an issue. (It's important to educate the customer that we need the photo for the report, and it will help us in the investigation in addition to picking up the product).<br>4. Offer the designed compensation and apply it through  'Switcher' by selecting the order, 'Wallet Refund' and Choosing 'Product issue' as a refund reason and 'Product Quality'.<br>5. If the customer asked for a replacement, kindly inform them that we are currently unable to send replacement orders, However, we can only refund the amount of product/order.<br>6. Report the ticket on freshdesk and add a note in the ticket with full details.<br>7. If we need to conduct an investigation,a pickup order can be created only for 'Breadfast Kitchen & Breadfast Coffee' in the undercooked complaints using the admin panel",
   tree: "Ticket Tree: Restaurant, Complaints, Product, Appearance, Under/Overcooked<br>Group: CX ( As per your group )<br>Status: Resolved/Closed (USE THIS)",
-  treeCx: "100% refund of the item + Delivery Fees"
+  treeCx: "⁍ 100% refund of the item + Delivery Fees"
 },
 		{
   case: "Bad Smell",
@@ -137,7 +137,7 @@ window.KB_DATA = {
   description: "- العميل اشتكى من وجود رائحة سيئة في المنتج غير مقبولة مثل تعفن ولكن لم يوجد عفن ظاهري.",
   cx: "1. Understand the issue and apologize to the customer with empathy.<br>2. Click on 'edit' to check the order details on Yelo.<br>*Check the previous tickets, In case a ticket was handled over another channel.<br>3. Ask for a photo of the item that has an issue. (in case there is an appearance issue related). will be an appearance complaint<br>4. Offer the designed compensation and apply it through  'Switcher' by selecting the order, 'Wallet Refund' and Choosing 'Product issue' as a refund reason and 'Product Quality'.<br>5. If the customer asked for a replacement, kindly inform them that we are currently unable to send replacement orders, However, we can only refund the amount of product/order.<br>6. Report the ticket on freshdesk and add a note in the ticket with full details.<br>7. If we need to conduct an investigation,a pickup order can be created only for 'Breadfast Kitchen & Breadfast Coffee' in the undercooked complaints using the admin panel<br>8. In case of the complaints related to A restaurant, create an internal request ticket - Restaurant Investigation call, assign it to the OB team, to notify the restaurant with the case.",
   tree: "Ticket Tree: Restaurant, Complaints, Product, Smell, Bad Smell<br>Group: CX ( As per your group )<br>Status: Resolved/Closed (USE THIS)",
-  treeCx: "100% refund of the item + Delivery Fees"
+  treeCx: "⁍ 100% refund of the item + Delivery Fees"
 },
 		{
   case: "Spoiled Taste",
@@ -146,7 +146,7 @@ window.KB_DATA = {
   description: "العميل اشتكى ان طعم المنتج حمضان، مزز أو بايظ. العميل اشتكي ان العصير اللي موجود في الاوفر جاي العلبة منفوخه و بايظ",
   cx: "1. Understand the issue and apologize to the customer with empathy.<br>2. Click on 'edit' to check the order details on Yelo.<br>*Check the previous tickets, In case a ticket was handled over another channel.<br>3. Ask for a photo of the item that has an issue. (in case there is an appearance issue related). will be an appearance complaint<br>4. Offer the designed compensation and apply it through  'Switcher' by selecting the order, 'Wallet Refund' and Choosing 'Product issue' as a refund reason and 'Product Quality'.<br>5. If the customer asked for a replacement, kindly inform them that we are currently unable to send replacement orders, However, we can only refund the amount of product/order.<br>6. Report the ticket on freshdesk and add a note in the ticket with full details.<br>7. If we need to conduct an investigation,a pickup order can be created only for 'Breadfast Kitchen & Breadfast Coffee' in the undercooked complaints using the admin panel<br>8. Create an itenrnal request ticket > Restaurant Investigation call, assign it to the OB team, to notify the restaurant with the case.",
   tree: "Ticket Tree: Restaurant, Complaints, Product, Taste, Spoiled Taste<br>Group: CX ( As per your group )<br>Status: Resolved/Closed (USE THIS)",
-  treeCx: "100% refund of the item + Delivery Fees"
+  treeCx: "⁍ 100% refund of the item + Delivery Fees"
 },
 		{
   case: "Ingredients Quality",
@@ -155,7 +155,7 @@ window.KB_DATA = {
   description: " العميل اشتكى ان جودة مكونات المنتج رديئة. (مثال: الشيكولاته المستخدمه فى المنتج كانها نوع رخيص) - العميل اشتكي ان جودة الاستريبس او الدجاج رديئه ",
   cx: "1. Understand the issue and apologize to the customer with empathy.<br>2. Click on 'edit' to check the order details on Yelo.<br>*Check the previous tickets, In case a ticket was handled over another channel.<br>3. Ask for a photo of the item that has an issue. (It's important to educate the customer that we need the photo for the report, and it will help us in the investigation in addition to picking up the product).<br>4. Offer the designed compensation and apply it through  'Switcher' by selecting the order, 'Wallet Refund' and Choosing 'Product issue' as a refund reason and 'Product Quality'.<br>5. If the customer asked for a replacement, kindly inform them that we are currently unable to send replacement orders, However, we can only refund the amount of product/order.<br>6. Report the ticket on freshdesk and add a note in the ticket with full details.<br>7. This type of case applies only to 'Breadfast Kitchen & Breadfast Coffee'.",
   tree: "Ticket Tree: Restaurant, Complaints, Product, Ingredients Quality<br>Group: CX ( As per your group )<br>Status: Resolved/Closed (USE THIS)",
-  treeCx: "No refund"
+  treeCx: "⁍ No refund."
 },
 		{
   case: "Foreign objects",
@@ -164,7 +164,7 @@ window.KB_DATA = {
   description: "العميل اشتكى من وجود أجسام غريبة عن مكونات المنتج. (مثل فتلة، ورقة، بلاسيتك مرن أو صلب، معدن، سلكة، خشب، تراب، قشرة، بذرة) او أي نوع ملوث للمنتج (داخل المنتج) ",
   cx: "1. Understand the issue and apologize to the customer with empathy & assure the customer with our hygiene and safety measurments.<br>2. Click on 'edit' to check the order details on Yelo.<br>*Check the previous tickets, In case a ticket was handled over another channel.<br>3. Ask for a photo of the item that has an issue. (It's important to educate the customer that we need the photo for the report, and it will help us in the investigation in addition to picking up the product).<br>4. Offer the designed compensation and apply it through  'Switcher' by selecting the order, 'Wallet Refund' and Choosing 'Product issue' as a refund reason and 'Product Quality'.<br>5. If the customer asked for a replacement, kindly inform them that we are currently unable to send replacement orders, However, we can only refund the amount of product/order.<br>6. Report the ticket on freshdesk and add a note in the ticket with full details.<br>7. This type of case applies only to 'Breadfast Kitchen & Breadfast Coffee'.",
   tree: "Ticket Tree: Restaurant, Complaints, Product, Appearance, Foreign objects<br>Group: CX ( As per your group )<br>Status: Resolved/Closed (USE THIS)",
-  treeCx: "Full Refund + 300 EGP (fixed value) for inconvenience."
+  treeCx: "⁍ Full Refund + 300 EGP (fixed value) for inconvenience."
 },
 			{
   case: "Insects",
@@ -173,7 +173,7 @@ window.KB_DATA = {
   description: " العميل اشتكى من وجود حشرات أو دود أو سوس في المنتج او على غلاف المنتج. (ايا كان نوع الحشرة) ",
   cx: "1. Understand the issue and apologize to the customer with empathy & assure the customer with our hygiene and safety measurments.<br>2. Click on 'edit' to check the order details on Yelo.<br>*Check the previous tickets, In case a ticket was handled over another channel.<br>3. Ask the customer for a suitable time to pick the product with the insect. (It's important to educate the customer that we need the photo for the report, and it will help us in the investigation in addition to picking up the product).<br>4. Ask for a photo of the item that has an issue. (It's important to educate the customer that we need the photo for the report, and it will help us in the investigation in addition to picking up the product).<br>5. If the customer asked for a replacement, kindly inform them that we are currently unable to send replacement orders, However, we can only refund the amount of product/order.<br>6.Offer the designed compensation and apply it through  'Switcher' by selecting the order, 'Wallet Refund' and Choosing 'Product issue' as a refund reason and 'Product Quality'.<br>7. If we need to conduct an investigation,a pickup order can be created only for 'Breadfast Kitchen & Breadfast Coffee' products using the admin panel.<br>",
   tree: "Ticket Tree: Restaurant, Complaints, Product, Appearance, Insects<br>Group: CX ( As per your group )<br>Status: Resolved/Closed (USE THIS)",
-  treeCx: "Full Refund + 300 EGP (fixed value) for inconvenience."
+  treeCx: "⁍ Full Refund + 300 EGP (fixed value) for inconvenience."
 },
 		{
   case: "Poisoning",
@@ -182,7 +182,7 @@ window.KB_DATA = {
   description: " نستخدمها فى حالة ان العميل تعب و راح المستشفى* العميل أصيب بنزلة معوية، قئ، مرض شديد و اجاب على ال 6 اسئلة ",
   cx: "1. Understand the issue, apologize sincerely with empathy, and ensure the customer’s well-being by asking about their health and condition.<br>2. Click on 'edit' to check the order details on Yelo.<br>*Check the previous tickets, In case a ticket was handled over another channel.<br>3. Create a retention ticket and change the group to 'CX Retention Restaurant',  and make the status 'Open'<br>4. Inform the customer that one of our team will contact him/her, as soon as possible within the day.<br>5. The retention agent should apologize once more and kindly request a photo of the item that has an issue and medical report. (It's important to educate the customer that we need the photo for the report, and it will help us in the investigation in addition to picking up the product).<br><br>6. Ask the customer the following questions:<br>1- what symptoms appeared.<br>2- Time between symptoms appearing and eating.<br>3- The number of people who ate compared to the people who showed symptoms<br>4- Age of the affected consumer (children - youth - the elderly).<br>5- Any alergin for the consumer to the item consumed.<br>6- Was any food consumed by the customer before it?<br><br>7. Offer the designed compensation and apply it through  'Switcher' by selecting the order, 'Wallet Refund' and Choosing 'Product issue' as a refund reason and 'Product Quality'.",
   tree: "Ticket Tree: Restaurant, Complaints, Product, Food Safety, Poisoning<br>Group: CX ( As per your group )<br>Status: Resolved/Closed (USE THIS)",
-  treeCx: "Full Refund + Medical expenses<br>(Medical proof - Request photo evidence when possible)"
+  treeCx: "⁍ Full Refund + 300 as a voucher<br>(Medical proof - Request photo evidence when possible)"
 },
 		{
   case: "Foodborne Illness",
@@ -191,7 +191,7 @@ window.KB_DATA = {
   description: " نستخدمها فى حالة ان العميل تعب بس مراحش المستشفى* العميل أصيب بنزلة معوية، قئ، مرض شديد و لم يجيب على ال 6 اسئلة ",
   cx: "1. Understand the issue, apologize sincerely with empathy, and ensure the customer’s well-being by asking about their health and condition.<br>2. Click on 'edit' to check the order details on Yelo.<br>*Check the previous tickets, In case a ticket was handled over another channel.<br>3. Create a retention ticket and change the group to 'CX Retention Restaurant',  and make the status 'Open'<br>4. Inform the customer that one of our team will contact him/her, as soon as possible within the day.<br>5. The retention agent should apologize once more and kindly request a photo of the item that has an issue and medical report. (It's important to educate the customer that we need the photo for the report, and it will help us in the investigation in addition to picking up the product).<br><br>6. Ask the customer the following questions:<br>1- what symptoms appeared.<br>2- Time between symptoms appearing and eating.<br>3- The number of people who ate compared to the people who showed symptoms<br>4- Age of the affected consumer (children - youth - the elderly).<br>5- Any alergin for the consumer to the item consumed.<br>6- Was any food consumed by the customer before it?<br><br>7. Offer the designed compensation and apply it through  'Switcher' by selecting the order, 'Wallet Refund' and Choosing 'Product issue' as a refund reason and 'Product Quality'.<br>8. If we need to conduct an investigation,a pickup order can be created only for Breadfast Kitchen & Breadfast Coffee products using the admin panel.<br>9. Report the ticket on freshdesk and add a note in the ticket with full details.<br>10. In case of the complaints related to A restaurant, create an internal request ticket > Restaurant Investigation call, assign it to the OB team, to notify the restaurant with the case.",
   tree: "Ticket Tree: Restaurant, Complaints, Product, Food Safety, Foodborne Illness<br>Group: CX ( As per your group )<br>Status: Resolved/Closed (USE THIS)",
-  treeCx: "Full Refund + 200EGP (fixed value).<br>300 EGP in case of repetitive Foodborne illness."
+  treeCx: "⁍ Full Refund + 200EGP (fixed value).<br>300 EGP in case of repetitive Foodborne illness."
 },
       ],
       delivery: [
