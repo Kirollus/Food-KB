@@ -3,7 +3,7 @@ window.KB_BUILD_VERSION = "__BUILD_VERSION__";
 window.KB_LAST_UPDATED = "16 Feb 2026";
 
 window.KB_LATEST_CHANGES = [
-  "Delivery issues refund"
+  "Packaging issues refund"
 ];
 
 window.KB_DATA = {
@@ -357,7 +357,7 @@ window.KB_DATA = {
   description: " - العميل اشتكى انه استلم منتج (قطعة) او منتجين (قطعتين) أزيد من اللي طلبها في الاوردر.",
   cx: "1. Understand the issue and apologize to the customer with empathy.<br>2. Click on 'edit' to check the order details on Yelo.<br>3. Ask the customer, what’s the extra item/s.<br>4. Ask for a photo of the item/s.<br>5. Thank the customer for letting us know and inform him to keep the product as a gift.<br>6. Report the ticket on freshdesk and add a note in the ticket with full details.",
   tree: "Complaints → Packaging → Items → Extra Item<br>Status: Resolved/Closed (USE THIS)",
-  treeCx: "Keep as a gift"
+  treeCx: "❑ Keep as a gift"
 },
 
 
@@ -368,7 +368,7 @@ window.KB_DATA = {
   description: "- العميل اشتكى من عدم وصول منتج (قطعة) او منتجين (قطعتين) من اللي طلبها في الاوردر.",
   cx: "1. Understand the issue and apologize to the customer with empathy.<br>2. Click on 'edit' to check the order details on Yelo.<br>3. Check if there’s a ticket created by the CX Restruant team to the outbound team, reporting an out-of-stock item\s.<br>4. Inform the customer that we will refund the product's amount to his wallet and he/she can reorder it again.<br>5. Creat the ticket.<br>6. Create a wallet refund ticket to refund the customer with missing item.",
   tree: "Complaints → Packaging → Items → Missing item<br>Status: Resolved/Closed (USE THIS)",
-  treeCx: "Refund 100% of the item amount + the delivery fees"
+  treeCx: "❑ Refund 100% of the item amount + the delivery fees"
 },
 
 {
@@ -378,7 +378,7 @@ window.KB_DATA = {
   description: "- العميل اشتكى من توصيل منتج او منتجين خطأ بدل المطلوب في الاوردر(من نفس قسم المنتج الأساسي وبنفس العدد) او البطيخ وصل غلط.",
   cx: "1. Understand the issue and apologize to the customer with empathy.<br>2. Click on 'edit' to check the order details on Yelo.<br>3. Ask the customer, what’s the wrong item and its quantity.<br>4. Ask for a photo of the received item (it’s important to mention that the photo would be helpful for the investigations).<br>5. Inform the customer that we will refund the product's amount to his wallet to be able to reorder it again and to keep the wrong item as a gift.<br>6. Report the ticket on freshdesk and add a note in the ticket with full details.",
   tree: "Complaints → Packaging → Items → Wrong item<br>Status: Resolved/Closed (USE THIS)",
-  treeCx: "Keep the wrong product as a gift and 100% Refund of the item + Delivery Fees"
+  treeCx: "❑ Keep the wrong product as a gift and 100% Refund of the item + Delivery Fees"
 },
 
 {
@@ -388,7 +388,7 @@ window.KB_DATA = {
   description: " العميل اشتكى ان الشنط مش نضيفة. (أي نوع ملوث داخل الشنط و ليس داخل المنتج) - العميل اشتكى ان تغليف المنتج مش نضيف. (من بره)",
   cx: "1. Understand the issue and apologize to the customer with empathy.<br>2. Click on 'edit' to check the order details on Yelo.<br>3. Ask for a photo of the package.<br>4. Report the ticket on freshdesk and add a note in the ticket with full details.<br>5. Assure the customer that this is a mistake, and we will report it.<br>6. Compensate the customer with the designed compensation.",
   tree: "Complaints → Packaging → Appearance → Dirty Packaging<br>Status: Resolved/Closed (USE THIS)",
-  treeCx: "Refund 25% of the item amount + the delivery fees"
+  treeCx: "❑ In case the customer complained about the order bag offer ▸ 25% of the order amount capped at 100 LE<br>❑ In case the customer complained about the packaging of the item, we should offer ▸ 25% of the item amount + Delivery Fees."
 },
 
 
@@ -399,7 +399,7 @@ window.KB_DATA = {
   description: "- العميل اشتكى من عدم وصول السكينة او الشوكة مع المنتج.",
   cx: "1. Understand the issue and apologize to the customer with empathy.<br>2. Click on 'edit' to check the order details on Yelo.<br>3. Report the ticket on freshdesk and add a note in the ticket with full details.<br>4. Assure the customer that this is a mistake, and we will report it.<br>5. Compensate the customer with the designed compensation.",
   tree: "Complaints → Packaging → Items → Missing cutlery<br>Status: Resolved/Closed (USE THIS)",
-  treeCx: "Refund 25% of the item amount + the delivery fees<br>in case the customer can't use the product, full refund"
+  treeCx: "❑ Refund 25% of the item amount capped at 100 EGP"
 },
 
 {
@@ -409,7 +409,7 @@ window.KB_DATA = {
   description: "- العميل اشتكى ان السلطة اوال cheesecake وصلت من غيرالصوص. - العميل اشتكى ان السيزرسالاد وصل من غيرالعيش. - العميل اشتكى ان السندوتشات جت من غيرعلبة الصوص.",
   cx: "1. Understand the issue and apologize to the customer with empathy.<br>2. Click on 'edit' to check the order details on Yelo.<br>3. Inform the customer that we will refund the product's amount to his wallet and he/she can reorder it again.<br>4. Report the ticket on freshdesk and add a note in the ticket with full details.<br>5. Create a wallet refund ticket to refund the customer with missing item.",
   tree: "Complaints → Packaging → Items → Side Item Missing<br>Status: Resolved/Closed (USE THIS)",
-  treeCx: "Refund 30% of the item amount + the delivery fees"
+  treeCx: "❑ Refund 25% of the item amount capped at 100 EGP"
 },
 
 {
@@ -419,7 +419,7 @@ window.KB_DATA = {
   description: "العميل طلب اضافة علي المنتج و وصله المنتج من غير الاضافة مثل ('طلب اضافة صوص جبنه شيدر علي البيتزا و استلم البيتزا من غير صوص الشيدر)",
   cx: "1. Understand the issue and apologize to the customer with empathy.<br>2. Click on 'edit' to check the order details on Yelo.<br>3. Ask for a photo of the item.<br>4. Report the ticket on freshdesk and add a note in the ticket with full details.<br>5. Assure the customer that this is a mistake, and we will report it.<br>6. Compensate the customer with the designed compensation.",
   tree: "Complaints → Packaging → Missing Add-on<br>Status: Resolved/Closed (USE THIS)",
-  treeCx: "Refund the Add-on price"
+  treeCx: "❑ Refund the Add-on price"
 },
 
 {
@@ -429,7 +429,7 @@ window.KB_DATA = {
   description: "العميل طلب اضافة علي المنتج و وصله المنتج باضافة خاطئه مثل ('طلب اضافة صوص جبنه شيدر علي البيتزا و استلم البيتزا عليها اضافة صوص باربيكيو)",
   cx: "1. Understand the issue and apologize to the customer with empathy.<br>2. Click on 'edit' to check the order details on Yelo.<br>3. Ask for a photo of the item.<br>4. Report the ticket on freshdesk and add a note in the ticket with full details.<br>5. Assure the customer that this is a mistake, and we will report it.<br>6. Compensate the customer with the designed compensation.",
   tree: "Complaints → Packaging → Wrong Add-on<br>Status: Resolved/Closed (USE THIS)",
-  treeCx: "Refund the Add-on price"
+  treeCx: "❑ Refund the Add-on price"
 },
       ],
       coffee: [
