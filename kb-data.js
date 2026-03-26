@@ -3,7 +3,7 @@ window.KB_BUILD_VERSION = "__BUILD_VERSION__";
 window.KB_LAST_UPDATED = "16 Feb 2026";
 
 window.KB_LATEST_CHANGES = [
-  "Product issues refund"
+  "Delivery issues refund"
 ];
 
 window.KB_DATA = {
@@ -202,7 +202,7 @@ window.KB_DATA = {
   description: "القهوة وصلت للعميل مسكوب",
   cx: "1. Understand the issue and apologize to the customer with empathy.<br>2. Click on 'edit' to check the order details on Yelo.<br>3. Check the previous tickets, In case a ticket was created for the concerned order.<br>4. Check the order details.<br>5. Ask for a photo of the item that has an issue. <br>6. Report the ticket on freshdesk",
   tree: "Complaints → Delivery → Coffee Delivery Spilled<br>Group: CX ( AS per your group )<Br>Status: Resolved/Closed (USE THIS)",
-  treeCx: "100% refund of the item + Delivery Fees"
+  treeCx: "➣ 100% refund of the item + Delivery Fees"
 },
         {
   case: "Wrong Collection",
@@ -211,7 +211,7 @@ window.KB_DATA = {
   description: "- العميل اشتكى ان الدليفري حصل مبلغ خطا. - الدليفري قفل الاوردر بدون تحصيل اى مبلغ (دون موافقة من فريق الOutbound). - الدليفري حصل فلوس من العميل و الاوردر كان مدفوع اونلاين.",
   cx: "1. Understand the issue and apologize to the customer with empathy.<br>2. Click on 'edit' to check the order details on Yelo.<br>3. Check: <br>-Customer's complaints history<br>-Customer's balance.<br>-Order's amount and the collected amount shown on switcher<br>-In case of the paid amount is unrealistic or a suspecious customer, refer back to the senior.<br>4. Report the ticket on freshdesk<br>5. Take the action:<br>- If the DA collects an amount lower than what the customer paid, refund the rest of amount from switcher.<br>- If the DA collects more than the amount paid by the customer, deduct the rest from the customer's wallet (switcher)",
   tree: "Complaints → Delivery → Order Payment → Wrong Collection<br>Group: CX ( AS per your group )<Br>Status: Resolved/Closed (USE THIS)",
-  treeCx: "Refund the customer with the rest of the amount"
+  treeCx: "➣ Refund the customer with the rest of the amount"
 },
 		{
   case: "No change",
@@ -247,7 +247,7 @@ window.KB_DATA = {
   description: " الاوردر متاخر عن ال Timeslot و العميل ماستلمش الاوردر بمجرد تواصل العميل",
   cx: "1. Understand the issue and apologize to the customer with empathy.<br>2. Click on 'edit' to check the order details on Yelo.<br>3. Check the order details and tickets: <br>-The expected delivery time<br>-Search with order number and check if there is a reported lateness in case of a bad climate or generalized system issue.<br>4.Report the ticket on freshdesk<br>5.Take the action:<br>-Check the DA's tracker to determine if they are heading to the restaurant (pickup point) or the customer (delivery point).<br>-Contact the customer to provide the order status.<br>-Snooze the chat and follow up with the customer until the order is delivered.<br>-In case the customer is so frustrated in any of the previous cases, snooze the chat and follow up with the customer.<br>-In case the order still processing and we couldn't reach the DA, we should create a ticket to the live ops team. <br>-In case the order is completed and the customer rates it with an explanation that it was late, we should apologize to the customer and offer the designed compensation.",
   tree: "Complaints → Delivery → Order is Late<br>Group: CX ( AS per your group )<Br>Status: Resolved/Closed (USE THIS)",
-  treeCx: "- Short delay (5-14 mins) = Refund delivery fees 20 EGP<br>- Mid delay (15-24 mins) = 25% of order amount capped 150 EGP<br>- Extreme delay (25-30 mins) = 50% of order amount capped 300 EGP<br>- Severe delay (31-... mins) = 100% of order amount capped 500 EGP<br>Any order exceeding 500 EGP requires senior approval before compensation."
+  treeCx: "➣ Short delay (5-14 mins) = Refund delivery fees<br>➣ Mid delay (15-24 mins) = 25% of order amount capped 150 EGP<br>➣ Extreme delay (25-30 mins) = 50% of order amount capped 300 EGP<br>➣ Sever delay (31-... mins) = 100% of order amount capped 500 EGP<br>Sever Delay (31 min  or above)  The order's amont above 500 LE, get back to your senior"
 },
 		{
   case: "Inappropriate attitude",
@@ -256,7 +256,7 @@ window.KB_DATA = {
   description: "- تعامل مندوب التوصيل مع العميل غير لائق أو غير محترم. - الدليفري رفض ياخد كوينز من العميل. - العميل اشتكى أن المندوب رن الجرس أو خبط على الباب كتير فى وقت قليل بشكل مزعج.",
   cx: "1. Understand the issue and apologize to the customer with empathy.<br>2. Click on 'edit' to check the order details on Yelo.<br>3. Check the order details and ask the customer for more information about the incident<br>4. Report the ticket on freshdesk<br>5. Take the action:<br>-Inform the customer that a formal investigation will take place, to prevent this from happening again.<br>-Send an email with the incident details (in case of severe and urgent cases) , and follow up (if needed).<br>-Compensate the customer with the designed compensation.<br>-Check the customer's balance log, make sure that the change was added to the wallet and inform the cst that it is added to the wallet.",
   tree: "Complaints → Delivery → Personal behavior → Inappropirate attitude<br>Group: CX ( AS per your group )<Br>Status: Resolved/Closed (USE THIS)",
-  treeCx: "50% of the order amount"
+  treeCx: "➣ 50% of the order amount Capped 200 EGP"
 },
 		{
   case: "Unnecessarily contacting customer",
@@ -265,7 +265,7 @@ window.KB_DATA = {
   description: " مندوب التوصيل يحاول التواصل مع العميل بدون داعي.",
   cx: "1. Understand the issue and apologize to the customer with empathy.<br>2. Click on 'edit' to check the order details on Yelo.<br>3. Check the order details and tickets.<br>4. Ask for details about the incident<br>5. Report the ticket on freshdesk.<br>6. Inform the customer that a formal investigation will take place, to prevent this from happening again.",
   tree: "Complaints → Delivery → Personal behavior → Unnecessarily contacting customer<br>Group: CX ( AS per your group )<Br>Status: Resolved/Closed (USE THIS)",
-  treeCx: "50% of the order amount"
+  treeCx: "➣ Offer two DF as compensation."
 },
 		{
   case: "Wrong Order",
@@ -274,7 +274,7 @@ window.KB_DATA = {
   description: "- الريسيت مش بتاع العميل و الدليفري وصل الاوردر لعنوان غلط (وهوا طالب اوردر و مجالوش الاوردر الخاص به) - العميل استلم اوردر زيادة مع الاوردر بتاعه (الاوردر عليه رقم مختلف) ",
   cx: "1. Understand the issue and apologize to the customer with empathy.<br>2. Click on 'edit' to check the order details on Yelo.<br>3. Check the order details and tickets<br>4. Ask for a photo of wrong order's number.<br>5. Report the ticket on freshdesk.<br>6. Check the customer's balance log, make sure that the change was added to the wallet and inform the cst that it is added to the wallet.<br>7.Take the action:<br>-In case the DA came back with the right order, we should create a ticket anyways mentioning all of the details.<br>-If a customer complains about receiving the wrong order, we should apologize and compensate the customer with the designed compensation.",
   tree: "Complaints → Delivery → Wrong Order<br>Group: CX ( AS per your group )<Br>Status: Resolved/Closed (USE THIS)",
-  treeCx: "100% refund of the order + Delivery Fees"
+  treeCx: "➣ 100% refund of the order + Delivery Fees"
 },
 		{
   case: "Order marked as delivered & cust. didn't receive it",
@@ -283,7 +283,7 @@ window.KB_DATA = {
   description: "- الاوردر وصل لعنوان غلط (هنا الى بيشتكى هو العميل الى عامل الاوردر و مجالوش). - الاوردر اتقفل و العميل لسه ماستلمش (المندوب قفل الاوردر قبل ما يوصل للعميل)",
   cx: "1.Understand the issue and apologize to the customer with empathy.<br>2. Click on 'edit' to check the order details on Yelo.<br>3.Check the order details and tickets.<br>4.Report the ticket on freshdesk.<br>5.Follow up with the DA and contact the customer to provide an update on the order.<br>6.Create a ticket to the live ops team.",
   tree: "Complaints → Delivery → Order details → Order marked as delivered & cust. didn't receive it<br>Group: CX ( AS per your group )<Br>Status: Resolved/Closed (USE THIS)",
-  treeCx: "Refund the delivery fees"
+  treeCx: "➣ 100% refund of the order + Delivery Fees as a compensation"
 },
 		{
   case: "Not following delivery instructions",
@@ -292,7 +292,7 @@ window.KB_DATA = {
   description: "- المندوب لم يتبع تعليمات التوصيل المطلوبة من العميل (التعليمات لازم تكون مكتوبه فى الاوردر)",
   cx: "1. Understand the issue and apologize to the customer with empathy.<br>2. Click on 'edit' to check the order details on Yelo.<br>3. Check the order details and tickets <br>4. Ask for details about the incident<br>5. Report the ticket on freshdesk.<br>6. Inform the customer that a formal investigation will take place, to prevent this from happening again.",
   tree: "Complaints → Delivery → Order details → Not following delivery instructions<br>Group: CX ( AS per your group )<Br>Status: Resolved/Closed (USE THIS)",
-  treeCx: "After handling the customer if the customer showed any type of frustration add DF to the wallet via wallet refund ticket "
+  treeCx: "➣ After handling the customer if the customer showed any type of frustration, add DF to the wallet via (Switcher)"
 },
 		{
   case: "Theft",
@@ -301,7 +301,7 @@ window.KB_DATA = {
   description: "العميل وضح ان المندوب سرقه ",
   cx: "1. Understand the issue and apologize to the customer with empathy.<br>2. Click on 'edit' to check the order details on Yelo.<br>3. Check the order details and ask the customer for more information about the incident.<br>4. Ask for a photo or video from the DA if they send anything to the customer or regarding the incident* Report the ticket on freshdesk<br>5. Create a retention ticket and change the group to 'CX-Retention',  and make the status 'Open'<br>6. Inform the customer that one of our team will contact him/her, as soon as possible within the day.<br><br>7. Take the action:<br>-Inform the customer that a formal investigation will take place, to prevent this from happening again.<br>-Send an email with the incident details (in case of severe and urgent cases) , and follow up (if needed).<br>-Compensate the customer with the designed compensation.",
   tree: "Complaints → Delivery → Order details → Theft<br>Group: CX ( AS per your group )<Br>Status: Resolved/Closed (USE THIS)",
-  treeCx: "Refund 100% + urgent escalation + follow up"
+  treeCx: "➣ Refund 100% + urgent escalation + follow up"
 },
 		{
   case: "Harassment",
@@ -310,7 +310,7 @@ window.KB_DATA = {
   description: "العميل وضح ان המندوب بعت لها رسايل علي واتساب او تحرش بيها سواء تحرش لفظي او Physical",
   cx: "1. Understand the issue and apologize to the customer with empathy.<br>2. Click on 'edit' to check the order details on Yelo.<br>3. Check the order details and ask the customer for more information about the incident.<br>4. Ask for a photo or video from the DA if they send anything to the customer or regarding the incident. (It's important to educate the customer that we need the photo for the report, and it will help us in the investigation in addition to picking up the product).<br>5. Report the ticket on freshdesk<br>6. Take the action:<br><br>-Inform the customer that a formal investigation will take place, to prevent this from happening again.<br>-Send an email with the incident details (in case of severe and urgent cases) , and follow up (if needed).<br>-Compensate the customer with the designed compensation.",
   tree: "Complaints → Delivery → Order details → Harassment<br>Group: CX ( AS per your group )<Br>Status: Resolved/Closed (USE THIS)",
-  treeCx: "Refund 100% + urgent escalation + follow up"
+  treeCx: "➣ Refund 100% + urgent escalation + follow up"
 },
 		{
   case: "DA didn't call me",
@@ -319,7 +319,7 @@ window.KB_DATA = {
   description: "العميل وضح ان الديليفري لم يتصل به و عمل ريبورت ان الديليفري كلم العميل و مش بيرد",
   cx: "1. Understand the issue and apologize to the customer with empathy.<br>2. Click on 'edit' to check the order details on Yelo.<br>3. Check the order details and tickets <br>4. Ask for details about the incident<br>5. Report the ticket on freshdesk.<br>6. Follow up with the DA and call the customer to provide an update on the order.<br>7. Inform the customer that a formal investigation will take place, to prevent this from happening again.",
   tree: "Complaints → Delivery → Order details → DA didn't call me<br>Group: CX ( AS per your group )<Br>Status: Resolved/Closed (USE THIS)",
-  treeCx: "Refund delivery fees"
+  treeCx: "➣ Refund delivery fees"
 },
 		{
   case: "Refused to come to door / asked customer to meet outside",
@@ -328,7 +328,7 @@ window.KB_DATA = {
   description: "العميل وضح ان الديليفري طلب منه انه ينزل يستلم الاوردر من تحت العمارة و رفض يطلعهوله لحد باب الشقه ",
   cx: "1. Understand the issue and apologize to the customer with empathy.<br>2. Click on 'edit' to check the order details on Yelo.<br>3. Check the order details and tickets <br>4. Ask for details about the incident<br>5. Report the ticket on freshdesk.<br>6. Inform the customer that a formal investigation will take place, to prevent this from happening again.",
   tree: "Complaints → Delivery → Refused to come to door / asked customer to meet outside<br>Group: CX ( AS per your group )<Br>Status: Resolved/Closed (USE THIS)",
-  treeCx: "Refund delivery fees"
+  treeCx: "➣ Refund delivery fees"
 },
 		{
   case: "Moving to wrong direction",
@@ -337,7 +337,7 @@ window.KB_DATA = {
   description: "العميل اشتكي ان المندوب بيتحرك عكس اتجاه عنوانه علي الخريطه ",
   cx: "1. Understand the issue and apologize to the customer with empathy.<br>2. Click on 'edit' to check the order details on Yelo.<br>3. Check the order details and tickets <br>4. Ask for details about the incident<br>5. Report the ticket on freshdesk.<br>6. Check the DA's tracker to determine if they are heading to the restaurant (pickup point) or the customer (delivery point).<br>7. Contact the customer and confirm the ETA time for the order.",
   tree: "Complaints → Delivery → Moving to wrong direction<br>Group: CX ( AS per your group )<Br>Status: Resolved/Closed (USE THIS)",
-  treeCx: "Refund delivery fees"
+  treeCx: "➣ Refund delivery fees"
 },
 		{
   case: "Delivery is not moving on the app",
@@ -346,7 +346,7 @@ window.KB_DATA = {
   description: "الديليفري واقف مكانه مش بيتحرك علي الخريطه  ",
   cx: "1. Understand the issue and apologize to the customer with empathy.<br>2. Click on 'edit' to check the order details on Yelo.<br>3. Check the order details and tickets <br>4. Ask for details about the incident<br>5. Report the ticket on freshdesk.<br>6. Follow up with the DA and call the customer to provide an update on the order.<br>7. Inform the customer that a formal investigation will take place, to prevent this from happening again.<br>8. Check the DA's tracker to determine if they are heading to the restaurant (pickup point) or the customer (delivery point).<br>9. Contact the customer and confirm the ETA time for the order.",
   tree: "Complaints → Delivery → Delivery is not moving on the app<br>Group: CX ( AS per your group )<Br>Status: Resolved/Closed (USE THIS)",
-  treeCx: "Refund delivery fees"
+  treeCx: "➣ Refund delivery fees"
 },
       ],
       packaging: [
