@@ -3,7 +3,7 @@ window.KB_BUILD_VERSION = "__BUILD_VERSION__";
 window.KB_LAST_UPDATED = "16 Feb 2026";
 
 window.KB_LATEST_CHANGES = [
-  "Packaging issues refund"
+  "Coffee issues refund"
 ];
 
 window.KB_DATA = {
@@ -440,7 +440,7 @@ window.KB_DATA = {
   description: "العميل اشتكى ان القهوة طعمها مر.",
   cx: "1. Understand the issue and apologize to the customer with empathy.<br>2. Click on 'edit' to check the order details on Yelo.<br>*Check the previous tickets, In case a ticket was handled over another channel.<br>3. Report the ticket on freshdesk and add a note in the ticket with full details.<br>4. If the customer requests a refund, it will be processed via 'Switcher'.<br>5. Compensate the customer with the designed compensation.",
   tree: "Complaints → Product → Coffee Quality App → Bitter<br>Status: Resolved/Closed (USE THIS)",
-  treeCx: "If customer used the product offer 25%<br>If customer wants to return it or threw it offer Full Refund of the item + Delivery Fees"
+  treeCx: "🍵 If customer used the product offer 25%<br>🍵 If customer wants to return it or threw it offer Full Refund"
 },
 
 {
@@ -450,7 +450,7 @@ window.KB_DATA = {
   description: "العميل اشتكي ان القهوه خفيفة او مميمية",
   cx: "1. Understand the issue and apologize to the customer with empathy.<br>2. Click on 'edit' to check the order details on Yelo.<br>*Check the previous tickets, In case a ticket was handled over another channel.<br>3. Report the ticket on freshdesk and add a note in the ticket with full details.<br>4. If the customer requests a refund, it will be processed via 'Switcher'.<br>5. Compensate the customer with the designed compensation.",
   tree: "Complaints → Product → Coffee Quality App → Watery/ Weak<br>Status: Resolved/Closed (USE THIS)",
-  treeCx: "If customer used the product offer 35%<br>If customer wants to return it or threw it offer Full Refund of the item + Delivery Fees"
+  treeCx: "🍵 If customer used the product offer 25%<br>🍵 If customer wants to return it or threw it offer Full Refund"
 },
 
 {
@@ -460,7 +460,7 @@ window.KB_DATA = {
   description: "العميل اشتكى ان الاوردرالمفروض يوصل سخن و لكن العميل استلمه دافي او بارد.<br>العميل اشتكى ان الاوردر المفروض يوصل ساقع و لكن الثلج ساح.",
   cx: "1. Understand the issue and apologize to the customer with empathy.<br>2. Click on 'edit' to check the order details on Yelo.<br>*Check the previous tickets, In case a ticket was handled over another channel.<br>3. Report the ticket on freshdesk and add a note in the ticket with full details.<br>4. If the customer requests a refund, it will be processed via 'Switcher'.<br>5. Compensate the customer with the designed compensation.",
   tree: "Complaints → Product → Coffee Quality App → Delivered at wrong temperature<br>Status: Resolved/Closed (USE THIS)",
-  treeCx: "If customer used the product offer 50%<br>If customer wants to return it or threw it offer Full Refund of the item + Delivery Fees"
+  treeCx: "🍵 If customer used the product offer 50%<br>🍵 If customer wants to return it or threw it offer Full Refund"
 },
 
 {
@@ -470,7 +470,7 @@ window.KB_DATA = {
   description: "العميل اشتكى ان طعم القهوه محروق.- العميل اشتكى ان القهوه طعمها تراب.",
   cx: "1. Understand the issue and apologize to the customer with empathy.<br>2. Click on 'edit' to check the order details on Yelo.<br>*Check the previous tickets, In case a ticket was handled over another channel.<br>3. Report the ticket on freshdesk and add a note in the ticket with full details.<br>4. If the customer requests a refund, it will be processed via 'Switcher'.<br>5. Compensate the customer with the designed compensation.",
   tree: "Complaints → Product → Coffee Quality App → Burnt<br>Status: Resolved/Closed (USE THIS)",
-  treeCx: "If customer used the product offer 15%<br>If customer wants to return it or threw it offer Full Refund of the item + Delivery Fees"
+  treeCx: "🍵 If customer used the product offer 25%<br>🍵 If customer wants to return it or threw it offer Full Refund"
 },
 
 {
@@ -480,7 +480,7 @@ window.KB_DATA = {
   description: "- العميل اشتكى ان المشروب طعمه بايظ أو فاسد.",
   cx: "1. Understand the issue and apologize to the customer with empathy.<br>2. Click on 'edit' to check the order details on Yelo.<br>*Check the previous tickets, In case a ticket was handled over another channel.<br>3. Report the ticket on freshdesk and add a note in the ticket with full details.<br>4. If the customer requests a refund, it will be processed via 'Switcher'.<br>5. Compensate the customer with the designed compensation.<br>6. If we need to conduct an investigation,a pickup order can be created only for 'Breadfast Kitchen & Breadfast Coffee' products using the admin panel.",
   tree: "Complaints → Product → Coffee Quality App → Spoiled<br>Status: Resolved/Closed (USE THIS)",
-  treeCx: "If customer used the product offer 50%<br>If customer wants to return it or threw it offer Full Refund of the item + Delivery Fees"
+  treeCx: "🍵 Offer Full Refund of the product's amount + DF"
 },
 
 {
@@ -490,7 +490,7 @@ window.KB_DATA = {
   description: "- العميل اشتكى ان الحليب أو الكريمة طعمه بايظ أو فاسد.",
   cx: "1. Understand the issue and apologize to the customer with empathy.<br>2. Click on 'edit' to check the order details on Yelo.<br>*Check the previous tickets, In case a ticket was handled over another channel.<br>3. Report the ticket on freshdesk and add a note in the ticket with full details.<br>4. If the customer requests a refund, it will be processed via 'Switcher'.<br>5. Compensate the customer with the designed compensation.",
   tree: "Complaints → Product → Coffee Quality App → Milk /Whipped Cream Smells or Tastes bad<br>Status: Resolved/Closed (USE THIS)",
-  treeCx: "If customer used the product offer 50%<br>If customer wants to return it or threw it offer Full Refund of the item + Delivery Fees"
+  treeCx: "🍵 If customer used the product offer 50%<br>🍵 If customer wants to return it or threw it offer Full Refund"
 },
 
 {
@@ -500,7 +500,7 @@ window.KB_DATA = {
   description: "- العميل اشتكى ان القهوة طعمها وحش او رائحتها وحشة أو فيها حاجة غلط.",
   cx: "1. Understand the issue and apologize to the customer with empathy.<br>2. Click on 'edit' to check the order details on Yelo.<br>*Check the previous tickets, In case a ticket was handled over another channel.<br>3. Report the ticket on freshdesk and add a note in the ticket with full details.<br>4. If the customer requests a refund, it will be processed via 'Switcher'.<br>5. Compensate the customer with the designed compensation.",
   tree: "Complaints → Product → Coffee Quality App → Flavor Smells or Tastes bad<br>Status: Resolved/Closed (USE THIS)",
-  treeCx: "If customer used the product offer 25%<br>If customer wants to return it or threw it offer Full Refund of the item + Delivery Fees"
+  treeCx: "🍵 If customer used the product offer 50%<br>🍵 If customer wants to return it or threw it offer Full Refund"
 },
       ],
       chat: [
@@ -536,7 +536,7 @@ window.KB_DATA = {
         type: "Cash Refund",
         urgency: "medium",
         description: "العميل طلب ان الفلوس ترجع كاش",
-        cx: "1. Click on 'edit' to check the order details on Yelo.<br>2.Ask for the reason of the refund & validate the reason.<br>3. Check the previous tickets, In case a ticket was handled over another channel.<br>4. Report the ticket on freshdesk and add a note in the ticket with full details.<br>5. Create a pickup order including the cash amount using admin panel.<br>6. Should be handled by retention team.",
+        cx: "1. Click on 'edit' to check the order details on Yelo.<br>2. Ask for the reason of the refund & validate the reason.<br>3. Check the previous tickets, In case a ticket was handled over another channel.<br>4. Report the ticket on freshdesk and add a note in the ticket with full details.<br>5. Create a pickup order including the cash amount using admin panel.<br>6. Should be handled by retention team.",
         tree: "Customer Request → Cash Refund",
         treeCx: "Action: Refunded<br>Status: Resolved/Closed (USE THIS)<br>Group: CX - Outbound Restaurant"
       },
@@ -592,7 +592,7 @@ window.KB_DATA = {
         description: "العميل طلب الغاء الاوردر لوجود حاله طارئه عنده",
         cx: "1. Click on 'edit' to check the order details on Yelo.<br>2. Call the customer and ask for the Cancellation reason.<br>3. Report the ticket on freshdesk and add a note in the ticket with full details.<br>4. Proceed with the cancellation, record or select the cancellation reason in Yelo, and inform the DA of the cancellation.",
         tree: "Customer Request → Cancel order → Emergency",
-        treeCx: "100% refund of the order + Delivery Fees<br>Action: No Action<br>Status: Resolved/Closed (USE THIS)<br>Group: CX - Outbound Restaurant"
+        treeCx: "Action: No Action<br>Status: Resolved/Closed (USE THIS)<br>Group: CX - Outbound Restaurant"
       },
 	{
         case: "Manual Void",
@@ -610,7 +610,7 @@ window.KB_DATA = {
         description: "العميل محتاج يعدل علي الاوردر فطلب الغاؤه",
         cx: "1. Click on 'edit' to check the order details on Yelo.<br>2. Call the customer and ask for the Cancellation reason.<br>3. Report the ticket on freshdesk and add a note in the ticket with full details.<br>4. Proceed with the cancellation, record or select the cancellation reason in Yelo, and inform the DA of the cancellation.",
         tree: "Customer Request → Cancel order → Edit Order",
-        treeCx: "100% refund of the order + Delivery Fees.<br>Action: No Action<br>Status: Resolved/Closed (USE THIS)<br>Group: CX - Outbound Restaurant"
+        treeCx: "Action: No Action<br>Status: Resolved/Closed (USE THIS)<br>Group: CX - Outbound Restaurant"
       },
 	{
         case: "Wrong Order",
@@ -619,7 +619,7 @@ window.KB_DATA = {
         description: "العميل استلم الاوردر غلط وطلب الغاؤه , المندوب وصل اوردر غلط للعميل ولما وصله الاوردر الصح طلب الغاؤه",
         cx: "1. Click on 'edit' to check the order details on Yelo.<br>2. Call the customer and ask for the Cancellation reason.<br>3. Report the ticket on freshdesk and add a note in the ticket with full details.<br>- Create ( Wrong Order ) complain<br>4. Proceed with the cancellation, record or select the cancellation reason in Yelo, and inform the DA of the cancellation.",
         tree: "Customer Request → Cancel order → Wrong Order",
-        treeCx: "100% refund of the order + Delivery Fees.<br>Action: No Action<br>Status: Resolved/Closed (USE THIS)<br>Group: CX - Outbound Restaurant"
+        treeCx: "Action: No Action<br>Status: Resolved/Closed (USE THIS)<br>Group: CX - Outbound Restaurant"
       },
 	{
         case: "Missing items",
@@ -628,7 +628,7 @@ window.KB_DATA = {
         description: "العميل طلب الغاء الطلب لاستلام الاوردر ناقص",
         cx: "1. Click on 'edit' to check the order details on Yelo.<br>2. Call the customer and ask for the Cancellation reason.<br>3. Report the ticket on freshdesk and add a note in the ticket with full details.<br>- Create ( Missing Item ) complain<br>4. Proceed with the cancellation, record or select the cancellation reason in Yelo, and inform the DA of the cancellation.",
         tree: "Customer Request → Cancel order → Missing items",
-        treeCx: "100% refund of the order + Delivery Fees.<br>Action: No Action<br>Status: Resolved/Closed (USE THIS)<br>Group: CX - Outbound Restaurant"
+        treeCx: "Action: No Action<br>Status: Resolved/Closed (USE THIS)<br>Group: CX - Outbound Restaurant"
       },
 	{
         case: "Wrong Address",
@@ -637,7 +637,7 @@ window.KB_DATA = {
         description: "العميل طلب الاوردر علي عنوان غلط",
         cx: "1. Click on 'edit' to check the order details on Yelo.<br>2. Call the customer and ask for the Cancellation reason.<br>3. Report the ticket on freshdesk and add a note in the ticket with full details.<br>4. Proceed with the cancellation, record or select the cancellation reason in Yelo, and inform the DA of the cancellation.",
         tree: "Customer Request → Cancel order → Wrong Address",
-        treeCx: "100% refund of the order + Delivery Fees.<br>Action: No Action<br>Status: Resolved/Closed (USE THIS)<br>Group: CX - Outbound Restaurant"
+        treeCx: "Action: No Action<br>Status: Resolved/Closed (USE THIS)<br>Group: CX - Outbound Restaurant"
       },
 	{
         case: "Change time slot",
@@ -646,7 +646,7 @@ window.KB_DATA = {
         description: "العميل طلب تغيير timeslot",
         cx: "1. Click on 'edit' to check the order details on Yelo.<br>2. Call the customer and ask for the Cancellation reason.<br>3. Report the ticket on freshdesk and add a note in the ticket with full details.<br>4. Proceed with the cancellation, record or select the cancellation reason in Yelo, and inform the DA of the cancellation.",
         tree: "Customer Request → Cancel order → Change time slot",
-        treeCx: "100% refund of the order + Delivery Fees.<br>Action: No Action<br>Status: Resolved/Closed (USE THIS)<br>Group: CX - Outbound Restaurant"
+        treeCx: "Action: No Action<br>Status: Resolved/Closed (USE THIS)<br>Group: CX - Outbound Restaurant"
       },
 	{
         case: "Item out of stock",
@@ -655,7 +655,7 @@ window.KB_DATA = {
         description: "العميل طلب الغاء الاوردر بسبب oos item",
         cx: "1. Click on 'edit' to check the order details on Yelo.<br>2. Call the customer and ask for the Cancellation reason.<br>3. Report the ticket on freshdesk and add a note in the ticket with full details.<br>4. Proceed with the cancellation, record or select the cancellation reason in Yelo, and inform the DA of the cancellation.",
         tree: "Customer Request → Cancel order → Item out of stock",
-        treeCx: "100% refund of the order + Delivery Fees.<br>Action: No Action<br>Status: Resolved/Closed (USE THIS)<br>Group: CX - Outbound Restaurant"
+        treeCx: "Action: No Action<br>Status: Resolved/Closed (USE THIS)<br>Group: CX - Outbound Restaurant"
       },
 	{
         case: "Forget to add the voucher",
@@ -664,7 +664,7 @@ window.KB_DATA = {
         description: "العميل طلب يلغي الاوردر لانه نسي يضيف ال voucher",
         cx: "1. Click on 'edit' to check the order details on Yelo.<br>2. Call the customer and ask for the Cancellation reason.<br>3. Report the ticket on freshdesk and add a note in the ticket with full details.<br>4. Proceed with the cancellation, record or select the cancellation reason in Yelo, and inform the DA of the cancellation.",
         tree: "Customer Request → Cancel order → Forget to add the voucher",
-        treeCx: "100% refund of the order + Delivery Fees.<br>Action: No Action<br>Status: Resolved/Closed (USE THIS)<br>Group: CX - Outbound Restaurant"
+        treeCx: "Action: No Action<br>Status: Resolved/Closed (USE THIS)<br>Group: CX - Outbound Restaurant"
       },
 	{
         case: "Order by mistake",
@@ -673,7 +673,7 @@ window.KB_DATA = {
         description: "العميل طلب الاوردر عن طريق الخطأ",
         cx: "1. Click on 'edit' to check the order details on Yelo.<br>2. Call the customer and ask for the Cancellation reason.<br>3. Report the ticket on freshdesk and add a note in the ticket with full details.<br>4. Proceed with the cancellation, record or select the cancellation reason in Yelo, and inform the DA of the cancellation.",
         tree: "Customer Request → Cancel order → Order by mistake",
-        treeCx: "100% refund of the order + Delivery Fees.<br>Action: No Action<br>Status: Resolved/Closed (USE THIS)<br>Group: CX - Outbound Restaurant"
+        treeCx: "Action: No Action<br>Status: Resolved/Closed (USE THIS)<br>Group: CX - Outbound Restaurant"
       },
 	{
         case: "Delay",
@@ -682,7 +682,7 @@ window.KB_DATA = {
         description: "العميل طلب الغاء الاوردر لانه متأخر ولكنه جوا timeslot , الاوردر هيتأخر من المطعم او المندوب ولما بلغنا العميل طلب الغاء الاوردر",
         cx: "1. Click on 'edit' to check the order details on Yelo.<br>2. Call the customer and ask for the Cancellation reason.<br>3. Report the ticket on freshdesk and add a note in the ticket with full details.<br>- Create ( Order is late ) complain<br>4. Proceed with the cancellation, record or select the cancellation reason in Yelo, and inform the DA of the cancellation.",
         tree: "Customer Request → Cancel order → Delay",
-        treeCx: "100% refund of the order + Delivery Fees.<br>Action: No Action<br>Status: Resolved/Closed (USE THIS)<br>Group: CX - Outbound Restaurant"
+        treeCx: "Action: No Action<br>Status: Resolved/Closed (USE THIS)<br>Group: CX - Outbound Restaurant"
       }
     ],
       rider: [
