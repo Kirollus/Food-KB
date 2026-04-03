@@ -3,7 +3,7 @@ window.KB_BUILD_VERSION = "__BUILD_VERSION__";
 window.KB_LAST_UPDATED = "16 Feb 2026";
 
 window.KB_LATEST_CHANGES = [
-  "Coffee issues "
+  "Restaurants numbers removed."
 ];
 
 window.KB_DATA = {
@@ -947,22 +947,7 @@ window.KB_DATA = {
         }
       ],
       all_numbers: [
-        { name: "Breadfast Kitchen", number: "01034347822" },
-        { name: "Wok and Walk", number: "01014445740" },
-        { name: "Wok and Walk", number: "01125136603" },
-        { name: "Karak Boy", number: "01103833380" },
-        { name: "Karak Boy", number: "01551539003" },
-        { name: "Ama Sushi", number: "01100678062" },
-        { name: "Don Pollo", number: "01200830182" },
-		{ name: "Dark Solution", number: "01286555968" },
-		{ name: "Meat Party", number: "01023377878" },
-		{ name: "Mayyal Mayyal", number: "01055666660" },
-		{ name: "Cafe Greco", number: "01222419405" },
-		{ name: "Garnell", number: "01204300970" },
-		{ name: "Garnell", number: "01221644603" },
-		{ name: "Takosan", number: "01125930735" },
-		{ name: "Vinny's Pizza", number: "01120684401" },
-		{ name: "Shawermer", number: "01050861245" },
+        { name: "", number: "" },
       ],
       main_process: [
         {
